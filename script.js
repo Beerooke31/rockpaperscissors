@@ -41,7 +41,6 @@ const playGame = () => {
     const playerSelection = prompt("Make your move:", "Rock, Paper, Scissors").toLowerCase()
     const computerSelection = getComputerChoice()
     playRound(playerSelection, computerSelection)
-    console.log(playRound(playerSelection, computerSelection))
     }
 }
 
